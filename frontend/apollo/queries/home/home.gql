@@ -1,0 +1,10 @@
+query home($key: ID!) {
+  home(id: $key) {
+    id,
+    title
+    price,
+    pics {
+      url
+    }
+  }
+}

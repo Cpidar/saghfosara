@@ -1,0 +1,10 @@
+query homes($limit: Int, $start: Int) {
+  homes(limit: $limit, start: $start) {
+    id,
+    title
+    price,
+    pics {
+      url
+    }
+  }
+}

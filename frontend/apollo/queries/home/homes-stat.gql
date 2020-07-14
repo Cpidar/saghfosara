@@ -1,0 +1,17 @@
+query homesConnection {
+  homesConnection {
+    aggregate {
+      totalCount
+    }
+    groupBy {
+      category {
+        key
+        connection {
+          aggregate {
+            count
+          }
+        }
+      }
+    }
+  }
+}

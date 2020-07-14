@@ -1,0 +1,23 @@
+mutation createHome($newHome: createHomeInput!) {
+  createHome(input: $newHome ) {
+    home {
+        title
+        description
+        price
+        status
+        category {
+          id
+        }
+        pics {
+          name
+        }
+        address
+        size
+        propertyType
+        phone
+        neighborhood
+        builtDate
+    }
+  }
+}
+  

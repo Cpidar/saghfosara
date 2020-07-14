@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Iransans";
+  src: url("/font/IranSansWeb-FaNum-Light.eot"),
+    url("/font/IranSansWeb-FaNum-Light.woff2") format("woff2"),
+    url("/font/IranSansWeb-FaNum-Light.woff") format("woff"),
+    url("/font/IranSansWeb-FaNum-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iransans-bold";
+  src: url("/font/IRANSansWeb-FaNum-Bold.woff2"),
+    url("/font/IRANSansWeb-FaNum-Bold.woff"),
+    url("/font/IRANSansWeb-FaNum-Bold.ttf"),
+    url("/font/IRANSansWeb-FaNum-Bold.eot");
+}
+
+/* // @font-face {
+//   font-family: "FontAwesome";
+//   font-weight: normal;
+//   font-style: normal;
+//   src: url("/font/fontawesome-webfont(2).eot"), format("embedded-opentype"),
+//     url("/font/fontawesome-webfont.woff2") format("woff2"),
+//     url("/font/fontawesome-webfont.woff") format("woff"),
+//     url("/font/fontawesome-webfont.ttf") format("truetype"),
+//     url("/font/fontawesome-webfont.svg") format("svg")
+// } */
+
+@font-face {
+  font-family: "Iransans-medium";
+  src: url("/font/IRANSansWeb_Medium.eot"),
+       url("/font/IRANSansWeb_Medium.woff2");
+}
+
+
+@font-face {
+  font-family: "Iransans-ulight";
+  src: url("/font/IRANSansWeb_UltraLight.eot"), url("/font/IRANSansWeb_UltraLight.woff2");
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  overflow: hidden;
+}
+
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+  font-family: Iransans, "Segoe UI", Tahoma, FontAwesome, Iransans-bold,
+    Iransans-medium sans-serif !important;
+}
+
+/* a {
+    text-decoration: none;
+  }
+  
+  h1  {
+    font-family: Staatliches;
+    font-size: 120px;
+  }
+  
+  #category {
+     font-family: Staatliches;
+     font-weight: 500;
+  }
+  
+  #title {
+    letter-spacing: .4px;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.13636;
+  }
+  
+  #banner {
+    margin: 20px;
+    height: 800px;
+  }
+  
+  #editor {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  
+  img:hover {
+    opacity: 1;
+    transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+   */

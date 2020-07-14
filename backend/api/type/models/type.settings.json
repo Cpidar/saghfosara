@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "types",
+  "info": {
+    "name": "type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "primaryKey": {
+      "type": "uid"
+    }
+  }
+}

@@ -10,7 +10,7 @@
       class="uk-sticky"
       style
     >
-      <div class="uk-navbar-container uk-navbar-transparent uk-dark">
+      <div class="uk-navbar-container uk-dark">
         <div class="uk-container uk-container-expand">
           <nav
             class="uk-navbar"
@@ -23,8 +23,8 @@
               >
                 <img
                   alt="Design Bites"
-                  width="120"
-                  src="/logo.png"
+                  width="220"
+                  src="/logo.svg"
                 />
                 <img
                   class="uk-logo-inverse"
@@ -122,7 +122,7 @@ export default {
   data() {
     return {
       categories: [],
-      menu: ['خرید', 'رهن و اجاره', 'قیمت خانه شما']
+      menu: ['خانه', 'مجله سقف و سرا']
     };
   }
 };

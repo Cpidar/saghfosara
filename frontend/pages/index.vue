@@ -8,19 +8,22 @@
       :has-more="hasMore"
       @fetch="showMore"
     />
-    <banner-category :items="categories" />
+    <!-- <banner-category :items="categories" /> -->
+    <banner-about />
   </div>
 </template>
 
 <script>
-import homesQuery from "~/apollo/queries/home/homes.gql";
-import homesStatQuery from "~/apollo/queries/home/homes-stat.gql";
-import categoriesQuery from '~/apollo/queries/category/categories.gql'
+// import homesQuery from "~/apollo/queries/home/homes.gql";
+// import homesStatQuery from "~/apollo/queries/home/homes-stat.gql";
+// import categoriesQuery from '~/apollo/queries/category/categories.gql'
 
 import BannerShowcase from "~/components/banner-showcase.vue";
 import ItemsGrid from "~/components/items-grid.vue";
 import Contactme from "~/components/banner-contactme.vue";
 import BannerCategory from "~/components/banner-category.vue";
+import BannerAbout from "~/components/banner-about.vue";
+
 
 export default {
   components: {
@@ -33,33 +36,32 @@ export default {
     return {
       title: "جدیدترین املاک ثبت شده",
       homesConnection: { aggregate: { count: 1 } },
-      homes: [],
       categories: [],
       pageSize: 16,
       hasMore: true
     };
   },
-  apollo: {
-    homes: {
-      prefetch: false,
-      query: homesQuery,
-      variables() {
-        return {
-          start: 0,
-          limit: this.pageSize
-        };
-      }
-      // fetchPolicy: 'cache-and-network',
-    },
-    homesConnection: {
-      prefetch: false,
-      query: homesStatQuery
-    },
-    categories: {
-      prefetch: false,
-      query: categoriesQuery
-    }
-  },
+  // apollo: {
+  //   homes: {
+  //     prefetch: false,
+  //     query: homesQuery,
+  //     variables() {
+  //       return {
+  //         start: 0,
+  //         limit: this.pageSize
+  //       };
+  //     }
+  //     // fetchPolicy: 'cache-and-network',
+  //   },
+  //   homesConnection: {
+  //     prefetch: false,
+  //     query: homesStatQuery
+  //   },
+  //   categories: {
+  //     prefetch: false,
+  //     query: categoriesQuery
+  //   }
+  // },
   methods: {
     showMore(page) {
       const start = page * this.pageSize;
@@ -81,6 +83,13 @@ export default {
           };
         }
       });
+    }
+  },
+  async asyncData ({ $content }) {
+    const homes = await $content('homes').fetch()
+
+    return {
+      homes
     }
   }
 };

@@ -136,7 +136,7 @@
 </template>
 
 <script>
-import HomeMutation from "~/apollo/mutations/home/create-home.gql";
+// import HomeMutation from "~/apollo/mutations/home/create-home.gql";
 
 export default {
   data() {

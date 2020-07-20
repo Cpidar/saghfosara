@@ -7,7 +7,7 @@
     tm-header-transparent-placeholder
   >
     <div
-      data-src="/home-header-8bf82203.webp"
+      data-src="/home-header-8bf82203.png"
       data-sizes="(max-aspect-ratio: 1920/940) 204vh"
       uk-img
       class="uk-background-norepeat uk-background-cover uk-background-bottom-center uk-section uk-section-large uk-flex uk-flex-middle"
@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 #page\#1 .uk-grid {
-  background: url("~assets/images/home-header-splash.png") 50% 50% no-repeat;
+  background: url("~assets/images/home-header-splash3.png") 50% 50% no-repeat;
   background-size: contain;
   padding: 135px 0;
 }

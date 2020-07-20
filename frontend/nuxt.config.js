@@ -4,12 +4,12 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'universal',
+  mode: 'spa',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'server',
+  target: 'client',
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
@@ -37,8 +37,8 @@ export default {
     'uikit/dist/css/uikit-rtl.min.css',
     'uikit/dist/css/uikit-rtl.css',
     // 'uikit/dist/css/uikit.css',
-    'vue-agile/dist/VueAgile.css',
-    'vue-slick-carousel/dist/vue-slick-carousel.css',
+    // 'vue-agile/dist/VueAgile.css',
+    // 'vue-slick-carousel/dist/vue-slick-carousel.css',
     '@assets/css/main.css'
   ],
   /*
@@ -47,8 +47,8 @@ export default {
   */
   plugins: [
     { src: '~/plugins/uikit.js', ssr: false },
-    { src: '~/plugins/vueagile.js', mode: 'client' },
-    { src: './plugins/vue-slick-carousel.js' }
+    // { src: '~/plugins/vueagile.js', mode: 'client' },
+    // { src: './plugins/vue-slick-carousel.js' }
   ],
   /*
   ** Auto import components
@@ -59,7 +59,8 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
+    '@nuxt/content'
   ],
 
   loading: true,
@@ -72,20 +73,24 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/apollo',
+    // '@nuxtjs/apollo',
     '@nuxtjs/axios',
   ],
 
-  apollo: {
-    clientConfigs: {
-      default: {
-        httpEndpoint: "http://localhost/api/graphql"
-      }
-    }
-  },
+  // apollo: {
+  //   clientConfigs: {
+  //     default: {
+  //       httpEndpoint: "http://localhost/api/graphql"
+  //     }
+  //   }
+  // },
 
   env: {
-    strapiBaseUri: process.env.API_URL || "http://localhost"
+    // strapiBaseUri: process.env.API_URL || "http://localhost"
+    apiUrl: 'http://saghfosara.ir/api',
+    baseUrl: 'http://saghfosara.ir',
+    imagePath: 'http://saghfosara.ir/storage/uploads',
+    apiToken: ''
   },
 
   /*
@@ -93,6 +98,5 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-    transpile: ['vue-agile']
   }
 }

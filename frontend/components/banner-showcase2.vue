@@ -21,7 +21,7 @@
                 target="!*"
                 data-src="/resources-hero-left.svg"
                 uk-img
-                src="https://demo.yootheme.com/resources-hero-left.svg"
+                src="/home-hero-left.svg"
               />
             </div>
 
@@ -29,12 +29,12 @@
               class="uk-heading-2xlarge uk-font-primary uk-position-relative uk-margin uk-text-center uk-scrollspy-inview uk-animation-fade"
               uk-scrollspy-class
               style
-            >UI Kits</h1>
+            >سقف و سرا</h1>
             <div
               class="uk-text-large uk-position-relative uk-text-center uk-scrollspy-inview uk-animation-fade"
               uk-scrollspy-class
               style
-            >Explore Beautiful UI Kits in Our Extensive Library</div>
+            >وبسایت جامع املاک اصفهان</div>
             <div
               class="uk-position-relative uk-margin-large uk-margin-remove-bottom uk-text-center"
               style="z-index: 3;"
@@ -46,44 +46,44 @@
                 <div class="uk-first-column">
                   <a
                     class="el-item uk-margin-auto uk-width-small uk-card uk-card-default uk-card-small uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                    href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=personal"
+                    href="/category/1"
                     uk-scrollspy-class
                     style="visibility: hidden;"
                   >
-                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">Personal</div>
+                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">خرید و فروش</div>
                   </a>
                 </div>
                 <div>
                   <a
                     class="el-item uk-margin-auto uk-width-small uk-card uk-card-default uk-card-small uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                    href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=food"
+                    href="/category/2"
                     uk-scrollspy-class
                     style="visibility: hidden;"
                   >
-                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">Food</div>
+                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">رهن و اجاره</div>
                   </a>
                 </div>
                 <div>
                   <a
                     class="el-item uk-margin-auto uk-width-small uk-card uk-card-default uk-card-small uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                    href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=shopping"
+                    href="/category/3"
                     uk-scrollspy-class
                     style="visibility: hidden;"
                   >
-                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">Shop­ping</div>
+                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">مشارکت</div>
                   </a>
                 </div>
                 <div>
                   <a
                     class="el-item uk-margin-auto uk-width-small uk-card uk-card-default uk-card-small uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                    href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=travel"
+                    href="category/4"
                     uk-scrollspy-class
                     style="visibility: hidden;"
                   >
-                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">Travel</div>
+                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">معاوضه</div>
                   </a>
                 </div>
-                <div>
+                <!-- <div>
                   <a
                     class="el-item uk-margin-auto uk-width-small uk-card uk-card-default uk-card-small uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block"
                     href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=business"
@@ -92,7 +92,7 @@
                   >
                     <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom">Busi­ness</div>
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
 
@@ -108,7 +108,7 @@
                 target="!*"
                 data-src="/resources-hero-right.svg"
                 uk-img
-                src="https://demo.yootheme.com/resources-hero-right.svg"
+                src="/home-hero-right.svg"
               />
             </div>
           </div>

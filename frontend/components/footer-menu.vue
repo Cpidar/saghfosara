@@ -4,20 +4,20 @@
       <div class="tm-grid-expand uk-grid-row-large uk-grid-margin-large uk-grid" uk-grid>
         <div class="uk-width-1-2@m uk-first-column">
           <div class="uk-h3 uk-text-right@m uk-text-center">
-            We Offer Awesome Design
-            <br class="uk-visible@s" />Resources to Bring Ideas to Life
+            سقف و سرا
+            <br class="uk-visible@s" />وبسایت جامع املاک اصفهان
           </div>
         </div>
 
         <div class="uk-width-expand">
-          <h3 class="uk-h5 uk-text-right@m uk-text-center">Company</h3>
+          <h3 class="uk-h5 uk-text-right@m uk-text-center">سایت</h3>
           <ul class="uk-list uk-text-right@m uk-text-center">
             <li class="el-item">
               <div class="el-content uk-panel">
                 <a
                   href="/themes/wordpress/2020/design-bites/index.php?page_id=160"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >About</a>
+                >درباره ما</a>
               </div>
             </li>
             <li class="el-item">
@@ -25,7 +25,7 @@
                 <a
                   href="/themes/wordpress/2020/design-bites/index.php?page_id=160#license-faq"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >License &amp; FAQ</a>
+                >مجوزها</a>
               </div>
             </li>
             <li class="el-item">
@@ -33,7 +33,7 @@
                 <a
                   href="/themes/wordpress/2020/design-bites/index.php?page_id=1357"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Blog</a>
+                >مجله سقف و سرا</a>
               </div>
             </li>
             <li class="el-item">
@@ -41,21 +41,21 @@
                 <a
                   href="/themes/wordpress/2020/design-bites/index.php?page_id=5"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Imprint</a>
+                >نقشه سایت</a>
               </div>
             </li>
           </ul>
         </div>
 
         <div class="uk-width-expand">
-          <h3 class="uk-h5 uk-text-right@m uk-text-center">Resources</h3>
+          <h3 class="uk-h5 uk-text-right@m uk-text-center">املاک</h3>
           <ul class="uk-list uk-text-right@m uk-text-center">
             <li class="el-item">
               <div class="el-content uk-panel">
                 <a
                   href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=fonts"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Fonts</a>
+                >خرید و فروش</a>
               </div>
             </li>
             <li class="el-item">
@@ -63,7 +63,7 @@
                 <a
                   href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=brushes"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Brushes</a>
+                >رهن و اجاره</a>
               </div>
             </li>
             <li class="el-item">
@@ -71,7 +71,7 @@
                 <a
                   href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=vectors"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Vectors</a>
+                >مشارکت در ساخت</a>
               </div>
             </li>
             <li class="el-item">
@@ -79,37 +79,21 @@
                 <a
                   href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=graphics"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Graphics</a>
-              </div>
-            </li>
-            <li class="el-item">
-              <div class="el-content uk-panel">
-                <a
-                  href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=mockups"
-                  class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Mockups</a>
-              </div>
-            </li>
-            <li class="el-item">
-              <div class="el-content uk-panel">
-                <a
-                  href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=ui-kits"
-                  class="el-link uk-link-muted uk-margin-remove-last-child"
-                >UI Kits</a>
+                >معاوضه</a>
               </div>
             </li>
           </ul>
         </div>
 
         <div class="uk-width-expand">
-          <h3 class="uk-h5 uk-text-right@m uk-text-center">Social</h3>
+          <h3 class="uk-h5 uk-text-right@m uk-text-center">شبکه های اجتماعی</h3>
           <ul class="uk-list uk-text-right@m uk-text-center">
             <li class="el-item">
               <div class="el-content uk-panel">
                 <a
                   href="https://www.facebook.com/yootheme"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Facebook</a>
+                >فیس بوک</a>
               </div>
             </li>
             <li class="el-item">
@@ -117,7 +101,7 @@
                 <a
                   href="https://www.pinterest.com/"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Pinterest</a>
+                >تلگرام</a>
               </div>
             </li>
             <li class="el-item">
@@ -125,23 +109,7 @@
                 <a
                   href="https://www.behance.net/"
                   class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Behance</a>
-              </div>
-            </li>
-            <li class="el-item">
-              <div class="el-content uk-panel">
-                <a
-                  href="https://www.instagram.com/"
-                  class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Instagram</a>
-              </div>
-            </li>
-            <li class="el-item">
-              <div class="el-content uk-panel">
-                <a
-                  href="https://twitter.com/yootheme"
-                  class="el-link uk-link-muted uk-margin-remove-last-child"
-                >Twitter</a>
+                >اینستاگرام</a>
               </div>
             </li>
           </ul>

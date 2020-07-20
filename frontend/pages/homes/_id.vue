@@ -15,7 +15,7 @@
 import Description from "~/components/detail-desc.vue";
 import SlideShow from "~/components/slideshow2.vue";
 import SimilarItem from "~/components/detail-similar.vue";
-import homeQuery from '~/apollo/queries/home/home.gql'
+// import homeQuery from '~/apollo/queries/home/home.gql'
 
 export default {
   components: {
@@ -30,16 +30,24 @@ export default {
     };
   },
 
-  apollo: {
-    home: {
-      prefetch: false,
-      query: homeQuery,
-      variables() {
-        return {  
-        key: this.id
-      }
-      },
-      fetchPolicy: 'cache-and-network',
+  // apollo: {
+  //   home: {
+  //     prefetch: false,
+  //     query: homeQuery,
+  //     variables() {
+  //       return {  
+  //       key: this.id
+  //     }
+  //     },
+  //     fetchPolicy: 'cache-and-network',
+  //   }
+  // }
+
+    async asyncData ({ $content, params }) {
+    const home = await $content(`homes/${params.id}`).fetch()
+
+    return {
+      home
     }
   }
 };

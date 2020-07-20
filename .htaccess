@@ -1,7 +1,7 @@
 RewriteEngine On
 DirectoryIndex disabled 
-RewriteRule ^/?api/(.*)$ http://localhost:1337/$1 [L,P]
-RewriteRule ^/?dashboard/(.*)$ http://localhost:1337/dashboard/$1 [L,P]
+RewriteRule ^/?api/(.*)$ http://saghfosara.ir:1337/$1 [L,P]
+RewriteRule ^/?dashboard/(.*)$ http://saghfosara.ir:1337/dashboard/$1 [L,P]
 RewriteRule ^(.*)$ http://localhost:3000/$1 [L,P]
 # ProxyPassReverse / http://localhost:3000/
 

@@ -6,7 +6,7 @@
           <div class="uk-margin-large uk-text-right@m uk-text-center">
             <a class="el-link" href="/themes/wordpress/2020/design-bites/index.php?page_id=1">
               <img
-                width="80"
+                width="120"
                 class="el-image"
                 alt
                 data-src="/logo.svg"
@@ -19,8 +19,7 @@
 
         <div class="uk-width-1-2@m">
           <div class="uk-text-meta uk-margin uk-text-left@m uk-text-center">
-            © 2020 Design Bites. All rights reserved. Powered by
-            <a href="https://yootheme.com/">YOOtheme</a>.
+            طراحی توسط <a href="https://cpidar.ir/">حسین موذنی</a>. تمامی حقوق محفوظ است
           </div>
         </div>
       </div>

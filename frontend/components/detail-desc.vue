@@ -22,21 +22,18 @@
 
     <h1 class="uk-text-lead uk-text-large uk-heading-divider">{{title}}</h1>
 
-    <div class="uk-margin-medium">
-      <p>{{desc}}</p>
-    </div>
     <ul class="uk-list uk-margin-large uk-margin-remove-bottom">
       <li class="el-item">
         <div class="uk-child-width-expand uk-grid-column-medium uk-grid-row-small uk-grid" uk-grid>
           <div class="uk-width-small uk-text-break uk-first-column">
-            <span class="el-title uk-display-block uk-font-primary">Category</span>
+            <span class="el-title uk-display-block uk-font-primary">مساحت</span>
           </div>
           <div class>
             <div class="el-content uk-panel">
               <a
                 class="uk-link-reset uk-margin-remove-last-child"
                 href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?resource_cat=personal"
-              >Personal</a>
+              >۱۶۵ مترمربع</a>
             </div>
           </div>
         </div>
@@ -44,35 +41,39 @@
       <li class="el-item">
         <div class="uk-child-width-expand uk-grid-column-medium uk-grid-row-small uk-grid" uk-grid>
           <div class="uk-width-small uk-text-break uk-first-column">
-            <span class="el-title uk-display-block uk-font-primary">Format</span>
+            <span class="el-title uk-display-block uk-font-primary">سن بنا</span>
           </div>
           <div class>
-            <div class="el-content uk-panel">sketch</div>
+            <div class="el-content uk-panel">۲ سال</div>
           </div>
         </div>
       </li>
       <li class="el-item">
         <div class="uk-child-width-expand uk-grid-column-medium uk-grid-row-small uk-grid" uk-grid>
           <div class="uk-width-small uk-text-break uk-first-column">
-            <span class="el-title uk-display-block uk-font-primary">License</span>
+            <span class="el-title uk-display-block uk-font-primary">تعداد خواب</span>
           </div>
           <div class>
-            <div class="el-content uk-panel">CC0</div>
+            <div class="el-content uk-panel">۲ عدد</div>
           </div>
         </div>
       </li>
       <li class="el-item">
         <div class="uk-child-width-expand uk-grid-column-medium uk-grid-row-small uk-grid" uk-grid>
           <div class="uk-width-small uk-text-break uk-first-column">
-            <span class="el-title uk-display-block uk-font-primary">Date</span>
+            <span class="el-title uk-display-block uk-font-primary">کد آگهی</span>
           </div>
           <div class>
-            <div class="el-content uk-panel">23 Nov, 2019</div>
+            <div class="el-content uk-panel">۲۲۳۴</div>
           </div>
         </div>
       </li>
     </ul>
     <hr class="uk-margin-medium" />
+    <div class="uk-margin-medium">
+      <div class="uk-h5 uk-font-primary uk-margin-top uk-margin-remove-bottom">توضیحات</div>
+      <p class="uk-font-primary">{{desc}}</p>
+    </div>
     <div class="uk-panel uk-margin-remove-first-child uk-margin">
       <div class="uk-child-width-expand uk-grid-column-medium uk-flex-middle uk-grid" uk-grid>
         <div class="uk-width-auto uk-first-column">

@@ -38,11 +38,11 @@
               <ul class="uk-navbar-nav">
                 <li class="uk-parent" v-for="item in menu" :key="item">
                   <a
-                    href="https://demo.yootheme.com/themes/wordpress/2020/design-bites/?page_id=161"
+                    :href="item.href"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"
                     aria-expanded="false"
                     style="font-family: Iransans-bold !important"
-                  >{{item}}</a>
+                  >{{item.label}}</a>
                   <!-- <div class="uk-navbar-dropdown">
                     <div
                       class="uk-navbar-dropdown-grid uk-child-width-1-1 uk-grid uk-grid-stack"
@@ -122,7 +122,10 @@ export default {
   data() {
     return {
       categories: [],
-      menu: ['خانه', 'مجله سقف و سرا']
+      menu: [
+        { label: 'خانه', href: '/'}, 
+        {label: 'مجله سقف و سرا', href: '/blog' }
+        ]
     };
   }
 };

@@ -19,9 +19,8 @@
                 class="el-image"
                 alt
                 target="!*"
-                data-src="/resources-hero-left.svg"
                 uk-img
-                src="/home-hero-left.svg"
+                src="/images/home-hero-left.svg"
               />
             </div>
 
@@ -106,9 +105,8 @@
                 class="el-image"
                 alt
                 target="!*"
-                data-src="/resources-hero-right.svg"
                 uk-img
-                src="/home-hero-right.svg"
+                src="/images/home-hero-right.svg"
               />
             </div>
           </div>

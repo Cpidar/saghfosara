@@ -8,8 +8,10 @@
       :has-more="hasMore"
       @fetch="showMore"
     />
-    <!-- <banner-category :items="categories" /> -->
+    <banner-category :items="categories" />
+    <blog-grid :posts="posts" />
     <banner-about />
+    <banner-contactme />
   </div>
 </template>
 
@@ -23,6 +25,8 @@ import ItemsGrid from "~/components/items-grid.vue";
 import Contactme from "~/components/banner-contactme.vue";
 import BannerCategory from "~/components/banner-category.vue";
 import BannerAbout from "~/components/banner-about.vue";
+import BlogGrid from '~/components/blog-grid.vue'
+import BannerContactme from '~/components/banner-contactme.vue'
 
 
 export default {
@@ -31,12 +35,14 @@ export default {
     ItemsGrid,
     Contactme,
     BannerCategory,
+    BlogGrid,
+    BannerContactme
   },
   data() {
     return {
       title: "جدیدترین املاک ثبت شده",
       homesConnection: { aggregate: { count: 1 } },
-      categories: [],
+      // categories: [],
       pageSize: 16,
       hasMore: true
     };
@@ -85,18 +91,30 @@ export default {
       });
     }
   },
-  async asyncData ({ $content }) {
+  async asyncData ({ $content,  $axios}) {
     const homes = await $content('homes').fetch()
+    const homesApi = await $axios.$post('/collections/get/property', {
+      token: process.env.apiToken,
+      filter: {published:true}
+    })
+    const categories = await $axios.$post('/collections/get/assignment', {
+        token: process.env.apiToken
+    })
+
+    const posts = await $content('posts').fetch()
 
     return {
-      homes
+      homes,
+      homesApi,
+      categories: categories.entries,
+      posts
     }
   }
 };
 </script>
 
 <style>
-.container {
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -125,5 +143,5 @@ export default {
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>

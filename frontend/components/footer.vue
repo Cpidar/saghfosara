@@ -4,14 +4,13 @@
       <div class="tm-grid-expand uk-grid-margin uk-grid" uk-grid>
         <div class="uk-width-1-2@m uk-first-column">
           <div class="uk-margin-large uk-text-right@m uk-text-center">
-            <a class="el-link" href="/themes/wordpress/2020/design-bites/index.php?page_id=1">
+            <a class="el-link" href="/">
               <img
                 width="120"
                 class="el-image"
                 alt
-                data-src="/logo.svg"
                 uk-img
-                src="/logo.svg"
+                src="/images/logo.svg"
               />
             </a>
           </div>

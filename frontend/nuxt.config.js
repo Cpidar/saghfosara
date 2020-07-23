@@ -77,6 +77,10 @@ export default {
     '@nuxtjs/axios',
   ],
 
+  axios: {
+    baseURL: 'http://saghfosara.ir/bk/api', // Used as fallback if no runtime config is provided
+  },
+
   // apollo: {
   //   clientConfigs: {
   //     default: {
@@ -87,10 +91,10 @@ export default {
 
   env: {
     // strapiBaseUri: process.env.API_URL || "http://localhost"
-    apiUrl: 'http://saghfosara.ir/api',
-    baseUrl: 'http://saghfosara.ir',
-    imagePath: 'http://saghfosara.ir/storage/uploads',
-    apiToken: ''
+    apiUrl: 'http://saghfosara.ir/bk/api',
+    baseUrl: 'http://saghfosara.ir/bk',
+    imagePath: 'http://saghfosara.ir/bk/storage/uploads',
+    apiToken: 'account-7fe22184138b26f1dc495a91aeb006'
   },
 
   /*

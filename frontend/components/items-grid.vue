@@ -2,7 +2,7 @@
   <div
     class="uk-section-muted uk-section uk-section-large"
     tm-header-transparent="dark"
-    uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-small; delay: false; hidden: false"
+    uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-small; delay: false; hidden: true"
   >
     <div class="uk-container uk-container-xlarge">
       <div class="tm-header-placeholder uk-margin-remove-adjacent"></div>
@@ -15,12 +15,11 @@
               uk-grid
             >
               <div
-                :class="{'uk-grid-margin': index > 4, 'uk-first-column': index%4==1 }"
                 v-for="(home, index) of items"
                 :key="index"
               >
                 <a
-                  class="el-item uk-card uk-card-default uk-card-hover uk-link-toggle uk-display-block"
+                  class="uk-card uk-card-default uk-card-hover uk-link-toggle uk-display-block uk-border-rounded"
                   :href="'/homes/'+home.id"
                   uk-scrollspy-class
                 >
@@ -83,7 +82,7 @@
               class="uk-button uk-button-danger"
               v-if="HasMore"
               @click="showMore"
-            >Show More ...</button>
+            >نمایش موارد بیشتر</button>
           </div>
         </div>
       </div>

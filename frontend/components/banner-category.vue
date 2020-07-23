@@ -11,8 +11,8 @@
             style="top: 15px; visibility: hidden;"
             uk-scrollspy-class
           >
-            Explore Our Assets
-            <br class="uk-visible@m" />by Category
+           کاوش املاک
+            <br class="uk-visible@m" />بر اساس نوع واگذاری
           </h2>
         </div>
 
@@ -22,7 +22,7 @@
             style="top: 15px;"
           >
             <div
-              class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-medium uk-grid-match uk-grid"
+              class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-medium uk-grid-match uk-grid"
               uk-grid="parallax: 50;"
               style="padding-bottom: 50px;"
             >

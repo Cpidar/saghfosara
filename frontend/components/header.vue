@@ -10,10 +10,9 @@
       class="uk-sticky"
       style
     >
-      <div class="uk-navbar-container uk-dark">
+      <div class="uk-navbar-container uk-navbar-transparent uk-dark">
         <div class="uk-container uk-container-expand">
           <nav
-            class="uk-navbar"
             uk-navbar='{"align": right, "boundary": !.uk-navbar-container}'
           >
             <div class="uk-navbar-right">
@@ -22,21 +21,21 @@
                 class="uk-navbar-item uk-logo"
               >
                 <img
-                  alt="Design Bites"
+                  alt="سقف و سرا"
                   width="220"
-                  src="/logo.svg"
+                  src="/images/logo.svg"
                 />
                 <img
                   class="uk-logo-inverse"
-                  alt="Design Bites"
-                  src="/logo-inverted.svg"
+                  alt="سقف و سرا"
+                  src="/images/logo-inverted.svg"
                 />
               </a>
             </div>
 
             <div class="uk-navbar-left">
               <ul class="uk-navbar-nav">
-                <li class="uk-parent" v-for="item in menu" :key="item">
+                <li class="uk-parent" v-for="item in menu" :key="item.label">
                   <a
                     :href="item.href"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"
